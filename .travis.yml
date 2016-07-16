@@ -1,0 +1,19 @@
+language: node_js
+
+node_js:
+  - "4"
+  - "5"
+  - "6"
+  - "stable"
+
+sudo: false
+
+# 现在不知道干嘛用的，看起来很厉害的样子
+before_script:
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+
+script:
+  - npm run lint
+  - npm test
+  - npm run test-node

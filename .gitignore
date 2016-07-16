@@ -1,0 +1,9 @@
+.idea/
+node_modules/
+dist/
+*.iml
+npm-debug.log
+
+# 目前不知道做什么用
+webpack-assets.json
+webpack-stats.json
