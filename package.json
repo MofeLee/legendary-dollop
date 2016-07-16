@@ -1,7 +1,7 @@
 {
-  "name": "blog",
+  "name": "legendary-dollop",
   "version": "0.1.1",
-  "description": "Mofe's blog",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
@@ -70,17 +70,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MofeLee/blog.git"
+    "url": "git+https://github.com/MofeLee/license-dollop.git"
   },
   "keywords": [
-    "blog"
+    ""
   ],
   "author": "Mofe Lee < mofe@me.com >",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MofeLee/blog/issues"
+    "url": "https://github.com/MofeLee/legendary-dollop/issues"
   },
-  "homepage": "https://github.com/MofeLee/blog#readme",
+  "homepage": "https://github.com/MofeLee/legendary-dollop#readme",
   "devDependencies": {
     "babel-eslint": "^6.0.4",
     "babel-loader": "^6.2.4",
